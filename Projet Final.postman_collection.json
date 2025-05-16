@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "936332c2-eb7e-44e8-870e-7899b2f8ec89",
+		"name": "Projet Final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39991744"
+	},
+	"item": [
+		{
+			"name": "tache",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3030/api/tache/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"tache",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3030/api/tache/detail/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"tache",
+						"detail",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
